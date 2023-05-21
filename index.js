@@ -80,7 +80,7 @@ function returnPayload(request) {
     items: [
       {
         name: request.produto,
-        value: parseInt(request.valor),
+        value: parseInt(request.valor)*100,
         amount: 1
       }
     ],
